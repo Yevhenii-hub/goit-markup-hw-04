@@ -235,7 +235,25 @@ height: 65px;
       align-items: center;
       justify-content: center;
     }
-    
+    .icon-instagram{
+
+    }
+     
+.social-links{
+  display: flex;
+	width: 44px;
+	height: 44px;
+	align-items: center;
+	justify-content: center;
+	color: #afb1b8;
+  
+    }
+    .social-links:hover{
+      border-radius: 50%;
+	background-color: #2196f3;
+	color: var(--white-collor);
+      
+    }
 
       
 
