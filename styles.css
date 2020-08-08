@@ -211,15 +211,37 @@ h2
   margin-bottom: 0;
   padding-bottom: 20px;
 }
+
+/* ИКОНКИ */
+
 .icon-envelope{
  vertical-align: middle;
-
   }
+
   .icon-phone{
     vertical-align: middle;
-    
   }
-   
+  .icon-centr{
+    width: 65px;
+height: 65px;
+    
+    }
+    .bacground-icons{
+      background-color:#F5F4FA;
+      border-radius: 4px;
+       width: 270px;
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+
+      
+
+
+
+
 /* ПОРТФОЛИО ПОЗИЦИОНИРОВАНИЕ  HEADER */
 /* .logo-header .logotyp{
   font-family: Raleway;
@@ -557,6 +579,7 @@ border: none;
 .detals{
   width: 270px;
   margin-right: 30px;
+  background-position: right;
 /* height: 75px; */
 }
 .aggregate {
@@ -568,13 +591,13 @@ border: none;
 }
 
 .bacground {
-  display: flex;
+   display: flex; 
   justify-content: center;
 
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
-}
+} */
 
 .section.java{
   padding-bottom: 94px;
