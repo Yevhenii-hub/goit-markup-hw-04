@@ -528,6 +528,10 @@ border: none;
   padding-top: 200px;
   padding-bottom: 280px; 
   
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("./images/fon.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
   
   text-align: center;
 
