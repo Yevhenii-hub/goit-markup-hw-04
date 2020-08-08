@@ -254,6 +254,34 @@ height: 65px;
 	color: var(--white-collor);
       
     }
+    .icon-box{
+      display: block;
+      height: 45px;
+      width: 50px;
+      
+  color: #AFB1B8;
+  
+    }
+    .box{
+    display: flex;
+    align-items: center;
+	  justify-content: center;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 30px;
+    height: 90px;
+     width: 170px;
+    }
+    .social{
+      flex-wrap: wrap;
+height: 20px;
+      width: 20px;
+
+    }
+    .footer-icon{
+      
+    }
 
       
 
@@ -330,6 +358,7 @@ line-height: 31px;
 /* ПОРТФОЛИО ПОЗИЦИОНИРОВАНИЕ  */
 .items{
   padding: 0;
+  
   }
 .continer {
   width: 1170px;
@@ -516,8 +545,14 @@ li, */
   margin-bottom: 0;
 }
 
+.footer-messenger{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .footer-text {
+  flex-wrap: wrap;
   text-transform: uppercase;
   color: #ffffff;
   margin: 0;
@@ -686,7 +721,8 @@ border: none;
   display: flex;
   margin-bottom: 94px;
   margin-top: 0;
-
+  
+  
   
 }
 
