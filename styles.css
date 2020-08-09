@@ -274,14 +274,24 @@ height: 65px;
      width: 170px;
     }
     .social{
-      flex-wrap: wrap;
+      display: flex;
 height: 20px;
       width: 20px;
 
     }
+    
     .footer-icon{
-      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+    border-radius: 4px;
+    
     }
+      
+
+      
+    
 
       
 
@@ -546,6 +556,7 @@ li, */
 }
 
 .footer-messenger{
+  
   display: flex;
   justify-content: center;
   align-items: center;
