@@ -245,23 +245,61 @@ height: 65px;
 	height: 44px;
 	align-items: center;
 	justify-content: center;
-	color: #afb1b8;
+  color: #afb1b8;
+
   
+  fill:currentColor;
+  
+  
+    }
+    .social-links:first-child{
+     
     }
     .social-links:hover{
       border-radius: 50%;
 	background-color: #2196f3;
-	color: var(--white-collor);
+	color: #ffffff;
       
     }
     .icon-box{
+      fill: #AFB1B8;
       display: block;
       height: 45px;
       width: 50px;
-      
-  color: #AFB1B8;
-  
+        color: #AFB1B8;
     }
+    
+      .firm1{
+        display: block;
+        height: 49px;
+        width: 44px;
+      }   
+      .firm2{
+        display: block;
+        height: 52px;
+        width: 40px;
+      }     
+      .firm3{
+        display: block;
+        height: 43px;
+        width: 41px;
+      }     
+      .firm4{
+        display: block;
+        height: 42px;
+        width: 80px;
+      }     
+      .firm5{
+        display: block;
+        height: 47px;
+        width: 59px;
+      }     
+      .firm6{
+        display: block;
+        height: 45px;
+        width: 88px;
+      }        
+  
     .box{
     display: flex;
     align-items: center;
@@ -272,6 +310,21 @@ height: 65px;
     margin-right: 30px;
     height: 90px;
      width: 170px;
+     }
+     .box:last-child{
+       margin-right: 0;
+     }
+     
+    .box:hover{
+  color: #2196f3;
+	border: 1px solid #2196f3;
+    }
+    .icon-box:hover{
+      fill: #2196f3;
+      padding:30px ;
+     
+      
+            
     }
     .social{
       display: flex;
@@ -556,15 +609,22 @@ li, */
 }
 
 .footer-messenger{
-  
-  display: flex;
+
+    display: flex;
   justify-content: center;
   align-items: center;
 }
+.position{
+  display: block;
+  flex-wrap: wrap;
+  
+  align-items: center;
+  margin-right: 0;
+}
 
 .footer-text {
-  flex-wrap: wrap;
-  text-transform: uppercase;
+    display: block;
+    text-transform: uppercase;
   color: #ffffff;
   margin: 0;
 }
