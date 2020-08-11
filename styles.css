@@ -216,10 +216,19 @@ h2
 
 .icon-envelope{
  vertical-align: middle;
+ height: 20px;
+ width: 16px;
+ margin-right: 10px;
+ 
   }
 
   .icon-phone{
     vertical-align: middle;
+    height: 20px;
+ width: 16px;
+ margin-right: 10px;
+ 
+
   }
   .icon-centr{
     width: 65px;
@@ -362,7 +371,7 @@ line-height: 31px;
 .flex-header {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ECECEC
+  /* border-bottom: 1px solid #ECECEC */
 }
 .flex-header li {
   list-style-type: none;
@@ -540,6 +549,9 @@ font-family: 'Roboto', sans-serif;
 li, */
 
 /* HEADER */
+.headerr{
+  border-bottom: 1px solid rgba(47, 48, 58, 0.4);
+}
 .header a {
   font-family: Roboto;
   font-style: normal;
@@ -600,6 +612,7 @@ li, */
 }
 
 .footer-nav {
+  font-style: italic;
   display: block;
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 9px;
@@ -649,6 +662,7 @@ li, */
     display: flex;
   }
   .top{
+    font-style: italic;
   margin-top: 20px;
   margin-bottom: 9px;
   color:var(--white-collor);
@@ -674,8 +688,8 @@ border: none;
   padding-top: 200px;
   padding-bottom: 280px; 
   
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url("./images/fon.jpg");
-	background-repeat: no-repeat;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./images/fon.jpg");
+  background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
   
@@ -684,10 +698,18 @@ border: none;
    background-color: gray;
 }
 .btn-centr {
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+
   width: 200px;
   height: 50px;
   background: #2196f3;
   border: none;
+
+  border-radius: 4px;
   
 
   color: var(--white-collor);
@@ -723,11 +745,17 @@ border: none;
   background-color: #f5f4fa;
 } */
 
-.section.java{
-  padding-bottom: 94px;
+.java {
+  
+    
+  
 }
 .applications {
   display: flex;
+  padding-bottom: 94px;
+  margin: 0;
+
+  
 }
 
 .applications .content-java {
@@ -752,6 +780,7 @@ border: none;
   margin-bottom: 50px;
 }
 .perfect{
+  
   margin-top: 0;
 
 }
@@ -780,6 +809,9 @@ border: none;
 .people li {
   margin-right: 10px;
 }
+.people{
+  background-color:var(-);
+}
 .regular{
   padding-top: 94px;
   padding-bottom: 94px;
@@ -790,7 +822,6 @@ border: none;
 }
 .regular-clients {
   display: flex;
-  margin-bottom: 94px;
   margin-top: 0;
   
   
