@@ -623,9 +623,11 @@ li, */
 
 .footer-messenger{
 
-    display: flex;
+    
+  
   justify-content: center;
   align-items: center;
+  
 }
 .position{
   display: block;
@@ -640,6 +642,17 @@ li, */
     text-transform: uppercase;
   color: #ffffff;
   margin: 0;
+}
+.footer-disc{
+  
+}
+
+.disc{
+  
+  display: flex;
+  justify-content:start;
+  padding-left: 0;
+ 
 }
 .messenger {
   color: #ffffff;
