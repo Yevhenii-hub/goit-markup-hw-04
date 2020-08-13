@@ -561,6 +561,13 @@ li, */
   color: #2196f3;
 }
 .nav {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -610,7 +617,7 @@ li, */
 }
 
 .footer-nav {
-  font-style: italic;
+  font-style: normal;
   display: block;
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 9px;
@@ -673,7 +680,7 @@ li, */
     display: flex;
   }
   .top{
-    font-style: italic;
+    font-style: normal;
   margin-top: 20px;
   margin-bottom: 9px;
   color:var(--white-collor);
@@ -756,15 +763,17 @@ line-height: 30px;
   background-color: #f5f4fa;
 } */
 
-.java {
+.section.java {
+  padding-bottom: 94px;
   
-    
-  
+}
+
+.help{
+  padding-bottom: 94px;
 }
 .applications {
   display: flex;
-  padding-bottom: 94px;
-  margin: 0;
+    margin: 0;
 
   
 }
@@ -781,6 +790,8 @@ line-height: 30px;
 
 .workers {
   display: flex;
+  background-color: #ffffff;
+  
 }
 .team{
    background-color: #F5F4FA;
@@ -816,12 +827,16 @@ line-height: 30px;
 .people ul {
   display: flex;
   justify-content: space-around;
+  
 }
 .people li {
   margin-right: 10px;
 }
 .people{
   background-color:var(-);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+padding-bottom: 30px;
 }
 .regular{
   padding-top: 94px;
